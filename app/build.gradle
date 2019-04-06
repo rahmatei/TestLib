@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
-group='com.github.rahmatei'
 android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.hossein.testlib"
         minSdkVersion 18
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 100
+        versionName "1.0.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
